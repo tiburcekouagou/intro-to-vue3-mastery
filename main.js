@@ -1,8 +1,9 @@
 const app = Vue.createApp({
-  data() {
-    return {
-      products: "Socks",
-      description: "This is one of the best socks in the world"
-    };
-  }
-});
+    data() {
+        return {
+            product: 'Socks',
+            images: "./assets/images/socks_blue.jpg",
+            url: "https://www.amazon.fr/s?k=socks&sprefix=sock%2Caps%2C194&ref=nb_sb_ss_ts-doa-p_3_4"
+        };
+    }
+})
